@@ -1,10 +1,5 @@
-import { Counter } from './Counter'
+import { Home } from './components/pages/Home/Home'
 
 export const App = () => {
-  return (
-    <>
-      <h1>React TypeScript Webpack Starter Template</h1>
-      <Counter />
-    </>
-  )
+  return <Home />
 }
